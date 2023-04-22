@@ -30,30 +30,42 @@ body {
     gap: 32px;
 }
 
-.cartaobranco{
-    background-color: white;
+.cartaobranco {
     display: flex;
     flex-direction: column;
     padding: 48px 32px 32px;
     justify-content: center;
     width: 384px;
-    height: 454px;
-    border: 1px solid #E2E8F0;
+    height: 454px; 
+    color: #0F172A;
+    background: #fff;
     border-radius: 10px;
 }
 
-.content1{
+.content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    height: 100%;
     gap: 32px;
-    width: 320px;
-    height: 294px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+}
+
+.boxcabecalho{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.boxtituloevalorazul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .textoroxoescuro{
@@ -67,7 +79,7 @@ body {
     text-transform: uppercase;
 }
 
-.textoazulescuro{
+.textoazul{
     color: #1E293B;
     font-family: 'Titillium Web';
     font-style: normal;
@@ -76,14 +88,14 @@ body {
     line-height: 49px;
 }
 
-.boxvalorazulescuro{
+.boxvalorazul{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.textomesazulescuro{
+.textomesazul{
     font-family: 'Titillium Web';
     color: #1E293B;
     font-style: normal;
@@ -92,15 +104,60 @@ body {
     line-height: 27px;
 }
 
-.valorazulescuro{
+.textovalorazul{
+    color: #1E293B;
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 37px;
-    color: #1E293B;
 }
 
+.boxvalorazul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.botaosemcor{
+    font-family: 'Titillium Web';
+    color: #1E293B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    width: 320px;
+    height: 56px;
+    border: 1px solid #1E293B;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.divider2 {
+    width: 320px;
+    height: 0px;
+    border: 1px solid #E2E8F0;
+}
+
+.textoinfo {
+    font-family: 'Titillium Web';
+    color: #475569;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+}
+
+/* -------------------------------------- */
 .cartaopreto{
     display: flex;
     flex-direction: column;
@@ -111,13 +168,6 @@ body {
     color: white;
     background: #0F172A;
     border-radius: 10px;
-}
-
-.content2 {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-
 }
 
 .boxcabecalho {
@@ -185,6 +235,9 @@ body {
 }
 
 .botaoroxo{
+    font-family: 'Titillium Web';
+    background: #996DFF;
+    color: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -193,16 +246,12 @@ body {
     gap: 10px;
     width: 320px;
     height: 56px;
-    background: #996DFF;
     border-radius: 4px;
     border: none;
-
-    font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
 }
 
 .divider {
@@ -237,7 +286,7 @@ body {
     gap: 8px;
 }
 
-.textoinfo {
+.textoinfo2 {
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
